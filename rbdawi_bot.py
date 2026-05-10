@@ -9,7 +9,7 @@ from datetime import datetime
 #           RBDAWI LEVEL BOT ★
 # ═══════════════════════════════════════════
 
-TOKEN              = "MTUwMjg4OTc4MTkzNDI5NzIxNA.GE-sw4.JgUUnj-Oay2uFb0FD-4BNhdlOEUc7FxaeOY9GE"   # ← توكن البوت
+TOKEN = os.environ.get("TOKEN") # ← توكن البوت
 LEVELUP_CHANNEL_ID = 1502815683069874256      # ← ID روم اللفلات (غيّره!)
 COOLDOWN_SECONDS   = 60                      # ثواني الانتظار بين رسالة ورسالة
 XP_MIN             = 15                      # أقل XP
